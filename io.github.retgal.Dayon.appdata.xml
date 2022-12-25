@@ -23,7 +23,7 @@
         <screenshot type="default">https://raw.githubusercontent.com/RetGal/Dayon/master/flatpak/dayon.screen.png</screenshot>
     </screenshots>
     <releases>
-        <release version="11.0.6" date="2022-12-10"/>
+        <release version="11.0.7" date="2022-12-25"/>
     </releases>
     <content_rating type="oars-1.1"/>
 </component>
