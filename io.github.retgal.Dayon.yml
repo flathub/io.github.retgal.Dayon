@@ -32,8 +32,8 @@ modules:
       - install -Dm644 ${FLATPAK_ID}.appdata.xml -t ${FLATPAK_DEST}/share/appdata
     sources:
       - type: archive
-        url: https://github.com/RetGal/Dayon/releases/download/v12.0.1/dayon.12.0.1.tgz
-        sha256: a1185890b6f50986469ad0520d2ac7bbd1fee8ad0a60a96cf0d5032c976dc6d6
+        url: https://github.com/RetGal/Dayon/releases/download/v13.0.0/dayon.13.0.0.tgz
+        sha256: 9a98b52dc0262b92373e6aa5466f84b0235876c3aa715b5ab8ce600ff5538ced
       - type: file
         path: io.github.retgal.Dayon.appdata.xml
       - type: file
@@ -42,9 +42,9 @@ modules:
         sha256: 593ba31a1901a8b0cc91dde80e8e20886811503e5ba216f9c636c7d0f44a0fe4
       - type: file
         dest-filename: dayon.assisted.desktop
-        url: https://raw.githubusercontent.com/RetGal/Dayon/0693d031efc9f158b4fe7070671df7a57165fb11/debian/dayon_assisted.desktop
-        sha256: cf9609c15ac9336313ef77e413ea7ded9f4be61e63854a3fd082260ba0103c6f
+        url: https://raw.githubusercontent.com/RetGal/Dayon/59a93ff/debian/dayon_assisted.desktop
+        sha256: 51ca0f6faf7ac29a3569ca21713a054c803da8a719c9dcefbb524a9340f1f0be
       - type: file
         dest-filename: dayon.assistant.desktop
-        url: https://raw.githubusercontent.com/RetGal/Dayon/0693d031efc9f158b4fe7070671df7a57165fb11/debian/dayon_assistant.desktop
-        sha256: 8b1c753f8c24cfc8ae6761b99cbc550cd0a9020fb437d5a279981636ff3ad1a1
+        url: https://raw.githubusercontent.com/RetGal/Dayon/59a93ff/debian/dayon_assistant.desktop
+        sha256: 7b4416f63b9b568dcb43eed0d5c31261106e57bbe181d59a67dc55c68e8813a1
