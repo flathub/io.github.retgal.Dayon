@@ -16,14 +16,14 @@
             <li>no router or network configuration required on the assisted side</li>
             <li>intuitive, multilingual (de/en/es/fr/it/ru/tr/zh) user interface</li>
             <li>assistant and assisted functionality in one package</li>
-            <li>secure, encrypted communication (TLS)</li>
+            <li>secure, encrypted communication (TLS 1.3)</li>
         </ul>
     </description>
     <screenshots>
         <screenshot type="default">https://raw.githubusercontent.com/RetGal/Dayon/master/flatpak/dayon.screen.png</screenshot>
     </screenshots>
     <releases>
-        <release version="12.0.1" date="2023-04-17"/>
+        <release version="13.0.0" date="2023-11-05"/>
     </releases>
     <content_rating type="oars-1.1"/>
 </component>
