@@ -8,6 +8,7 @@
     <url type="homepage">https://retgal.github.io/Dayon/</url>
     <url type="bugtracker">https://github.com/retgal/dayon/issues</url>
     <summary>Remote assistance made easy!</summary>
+    <developer_name>RetGal</developer_name>
     <description>
         <p>An easy-to-use, cross-platform remote desktop support solution for everyone.</p>
         <p>It can be used as free alternative to various commercial remote desktop and remote assistance products.</p>
