@@ -14,16 +14,16 @@
         <p>Its key features are:</p>
         <ul>
             <li>no router or network configuration required on the assisted side</li>
-            <li>intuitive, multilingual (de/en/es/fr/it/ru/tr/zh) user interface</li>
+            <li>intuitive, multilingual (de/en/es/fr/it/ru/sv/tr/zh) user interface</li>
             <li>assistant and assisted functionality in one package</li>
-            <li>secure, encrypted communication (TLS 1.3)</li>
+            <li>secure, end-to-end encrypted communication (TLS 1.3)</li>
         </ul>
     </description>
     <screenshots>
         <screenshot type="default">https://raw.githubusercontent.com/RetGal/Dayon/master/flatpak/dayon.screen.png</screenshot>
     </screenshots>
     <releases>
-        <release version="13.0.0" date="2023-11-05"/>
+        <release version="13.0.1" date="2024-02-08"/>
     </releases>
     <content_rating type="oars-1.1"/>
 </component>
