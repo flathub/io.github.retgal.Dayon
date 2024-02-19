@@ -21,7 +21,7 @@
         </ul>
     </description>
     <screenshots>
-        <screenshot type="default">https://raw.githubusercontent.com/RetGal/Dayon/master/docs/dayon.screen.png</screenshot>
+        <screenshot type="default" media="all">https://raw.githubusercontent.com/RetGal/Dayon/master/docs/dayon.screen.png</screenshot>
     </screenshots>
     <releases>
         <release version="13.0.2" date="2024-02-18"/>
