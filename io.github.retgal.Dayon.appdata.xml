@@ -24,7 +24,7 @@
         <screenshot type="default">https://raw.githubusercontent.com/RetGal/Dayon/master/flatpak/dayon.screen.png</screenshot>
     </screenshots>
     <releases>
-        <release version="13.0.2" date="2024-02-08"/>
+        <release version="13.0.2" date="2024-02-18"/>
     </releases>
     <content_rating type="oars-1.1"/>
 </component>
