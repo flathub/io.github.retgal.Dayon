@@ -22,7 +22,7 @@ modules:
       - install -Dm644 dayon.jar -t /app/bin
       - install -Dm755 dayon*.sh -t /app/bin
       - install -Dm755 dayon.browser -t /app/bin
-      - install -Dm644 dayon.png /app/share/icons/hicolor/128x128/apps/${FLATPAK_ID}.png
+      - install -Dm644 dayon.flathub.png /app/share/icons/hicolor/128x128/apps/${FLATPAK_ID}.png
       - install -Dm644 dayon.assisted.desktop /app/share/applications/${FLATPAK_ID}.desktop
       - desktop-file-edit --set-key=Exec --set-value='/app/bin/dayon_assisted.sh' /app/share/applications/${FLATPAK_ID}.desktop
       - desktop-file-edit --set-icon=${FLATPAK_ID} /app/share/applications/${FLATPAK_ID}.desktop
@@ -36,6 +36,10 @@ modules:
         sha256: 1929ff65eade63637e334b0e240c0aef85673e1d6e8ca7c14def96ca05e3e6ff
       - type: file
         path: io.github.retgal.Dayon.appdata.xml
+      - type: file
+        dest-filename: dayon.flathub.png
+        url: https://raw.githubusercontent.com/RetGal/Dayon/453037e9e342f18372bf664555155f9664d5f9ad/flatpak/dayon.flathub.png
+        sha256: 593ba31a1901a8b0cc91dde80e8e20886811503e5ba216f9c636c7d0f44a0fe4
       - type: file
         dest-filename: dayon.browser
         url: https://raw.githubusercontent.com/RetGal/Dayon/62ede411e1c5cd3427597ce40d6b301e9b4a2562/flatpak/dayon.browser
