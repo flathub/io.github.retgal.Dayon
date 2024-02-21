@@ -15,13 +15,13 @@
     </keywords>
     <description>
         <p>An easy-to-use, cross-platform remote desktop support solution for everyone.</p>
-        <p>It can be used as free alternative to various commercial remote desktop and remote assistance products.</p>
+        <p>May be used as free alternative to various commercial remote desktop and remote assistance products.</p>
         <p>Its key features are:</p>
         <ul>
-            <li>no router or network configuration required on the assisted side</li>
-            <li>intuitive, multilingual (de/en/es/fr/it/ru/sv/tr/zh) user interface</li>
-            <li>assistant and assisted functionality in one package</li>
-            <li>secure, end-to-end encrypted communication (TLS 1.3)</li>
+            <li>No router or network configuration required on the Assisted side</li>
+            <li>Intuitive, multilingual user interface</li>
+            <li>Assistant and Assisted functionality in one package</li>
+            <li>Secure, end-to-end encrypted communication (TLS 1.3)</li>
         </ul>
     </description>
     <screenshots>
@@ -31,11 +31,57 @@
         </screenshot>
     </screenshots>
     <releases>
-        <release version="13.0.2" date="2024-02-18"/>
-        <release version="13.0.1" date="2024-02-08"/>
-        <release version="13.0.0" date="2023-11-05"/>
-        <release version="12.0.1" date="2023-04-17"/>
-        <release version="12.0.0" date="2023-04-16"/>
+        <release version="13.0.2" date="2024-02-18">
+            <description>
+                <p>Changes in Beard Butter II</p>
+                <ul>
+                    <li>Major UI rework</li>
+                    <li>Send Ctrl + Alt + Delete</li>
+                    <li>Option to lock the window to the assisted screen aspect ration</li>
+                    <li>Option to change the language within the UI</li>
+                    <li>Option to start JITSI meet to chat with the remote peer</li>
+                </ul>
+            </description>
+        </release>
+        <release version="13.0.1" date="2024-02-08">
+            <description>
+                <p>Canges in Beard Butter I</p>
+                <ul>
+                    <li>Full HiDPI support</li>
+                    <li>Swedish localisation</li>
+                    <li>Support for self hosted rendez-vous servers</li>
+                </ul>
+            </description>
+        </release>
+        <release version="13.0.0" date="2023-11-05">
+            <description>
+                <p>Changes in Beard Butter</p>
+                <ul>
+                    <li>Improved MITM attack mitigation by using individually generated certificates</li>
+                    <li>Compatibility mode for older clients</li>
+                    <li>Switched to xz as default compression</li>
+                    <li>Reduced memory allocation for systems with huge memory</li>
+                </ul>
+            </description>
+        </release>
+        <release version="12.0.1" date="2023-04-17">
+            <description>
+                <p>Adorable Asteroid I</p>
+                <ul>
+                    <li>Enhanced backwards compatibility</li>
+                </ul>
+            </description>
+        </release>
+        <release version="12.0.0" date="2023-04-16">
+            <description>
+                <p>Adorable Asteroid</p>
+                <ul>
+                    <li>Automatic creation of port forwarding rules</li>
+                    <li>MITM attack detection</li>
+                    <li>Refreshed UI</li>
+                </ul>
+            </description>
+        </release>
         <release version="11.0.7" date="2022-12-25"/>
         <release version="11.0.6" date="2022-12-10"/>
         <release version="11.0.5" date="2022-05-08"/>
