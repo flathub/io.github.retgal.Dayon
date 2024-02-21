@@ -9,6 +9,10 @@
     <url type="bugtracker">https://github.com/retgal/dayon/issues</url>
     <summary>Remote assistance made easy!</summary>
     <developer_name>RetGal</developer_name>
+    <keywords>
+        <keyword>remote desktop</keyword>
+        <keyword>remote assistance</keyword>
+    </keywords>
     <description>
         <p>An easy-to-use, cross-platform remote desktop support solution for everyone.</p>
         <p>It can be used as free alternative to various commercial remote desktop and remote assistance products.</p>
@@ -21,10 +25,20 @@
         </ul>
     </description>
     <screenshots>
-        <screenshot type="default">https://raw.githubusercontent.com/RetGal/Dayon/master/flatpak/dayon.screen.png</screenshot>
+        <screenshot type="default">
+            <image>https://raw.githubusercontent.com/RetGal/Dayon/master/flatpak/dayon.screen.flathub.png</image>
+            <caption>Remote assistance made easy!</caption>
+        </screenshot>
     </screenshots>
     <releases>
+        <release version="13.0.2" date="2024-02-18"/>
         <release version="13.0.1" date="2024-02-08"/>
+        <release version="13.0.0" date="2023-11-05"/>
+        <release version="12.0.1" date="2023-04-17"/>
+        <release version="12.0.0" date="2023-04-16"/>
+        <release version="11.0.7" date="2022-12-25"/>
+        <release version="11.0.6" date="2022-12-10"/>
+        <release version="11.0.5" date="2022-05-08"/>
     </releases>
     <content_rating type="oars-1.1"/>
 </component>
