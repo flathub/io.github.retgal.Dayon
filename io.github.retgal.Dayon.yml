@@ -39,7 +39,7 @@ modules:
       - type: file
         dest-filename: dayon.flathub.png
         url: https://raw.githubusercontent.com/RetGal/Dayon/453037e9e342f18372bf664555155f9664d5f9ad/flatpak/dayon.flathub.png
-        sha256: f8cdf0bf98b0bab91422400af58206fdac88bc237a6408d676f96cef84f359c1
+        sha256: 9adbb4cb12b8fcd2fdaf7cdf3e589092ab80e290b6962fc1b196965a5f533ee5
       - type: file
         dest-filename: dayon.browser
         url: https://raw.githubusercontent.com/RetGal/Dayon/62ede411e1c5cd3427597ce40d6b301e9b4a2562/flatpak/dayon.browser
