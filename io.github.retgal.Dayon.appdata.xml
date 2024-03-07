@@ -31,6 +31,18 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="14.0.0" date="2024-03-07">
+            <description>
+                <p>Changes in Candid Clover</p>
+                <ul>
+                    <li>Option to take screenshots at the assisted</li>
+                    <li>Transfer of clipboards containing graphics</li>
+                    <li>Detection of different keyboard layouts</li>
+                    <li>Option to configure token server within the UI</li>
+                    <li>Send cmd key if connected with an assisted running macOS</li>
+                </ul>
+            </description>
+        </release>
         <release version="13.0.2" date="2024-02-18">
             <description>
                 <p>Changes in Beard Butter II</p>
