@@ -15,7 +15,7 @@
     </keywords>
     <description>
         <p>An easy-to-use, cross-platform remote desktop support solution for everyone.</p>
-        <p>May be used as free alternative to various commercial remote desktop and remote assistance products.</p>
+        <p>It can be used as free alternative to various commercial remote desktop and remote assistance products.</p>
         <p>Its key features are:</p>
         <ul>
             <li>No router or network configuration required on the Assisted side</li>
@@ -31,6 +31,15 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="14.0.1" date="2024-05-23">
+            <description>
+                <p>Changes in Candid Clover I</p>
+                <ul>
+                    <li>Slight performance improvements</li>
+                    <li>Minor UI fixes</li>
+                </ul>
+            </description>
+        </release>
         <release version="14.0.0" date="2024-03-07">
             <description>
                 <p>Changes in Candid Clover</p>
