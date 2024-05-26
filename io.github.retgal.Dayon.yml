@@ -8,10 +8,11 @@ command: dayon_assisted.sh
 finish-args:
   - --share=ipc
   - --socket=x11
+  - --socket=wayland
   - --share=network
   - --filesystem=home
   - --filesystem=/tmp
-  - --env=PATH=/app/jre/bin:/usr/bin:/app/bin
+  - --env=PATH=/app/jre/bin:/app/bin:/usr/bin
 modules:
   - name: openjdk
     buildsystem: simple
