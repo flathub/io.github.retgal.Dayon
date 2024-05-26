@@ -3,7 +3,7 @@ runtime: org.freedesktop.Platform
 runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk11
+  - org.freedesktop.Sdk.Extension.openjdk21
 command: dayon_assisted.sh
 finish-args:
   - --share=ipc
@@ -11,11 +11,12 @@ finish-args:
   - --share=network
   - --filesystem=home
   - --filesystem=/tmp
+  - --env=PATH=/app/jre/bin:/usr/bin
 modules:
   - name: openjdk
     buildsystem: simple
     build-commands:
-      - /usr/lib/sdk/openjdk11/install.sh
+      - /usr/lib/sdk/openjdk21/install.sh
   - name: dayon
     buildsystem: simple
     build-commands:
