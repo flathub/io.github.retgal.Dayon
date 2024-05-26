@@ -11,7 +11,7 @@ finish-args:
   - --share=network
   - --filesystem=home
   - --filesystem=/tmp
-  - --env=PATH=/app/jre/bin:/usr/bin
+  - --env=PATH=/app/jre/bin:/usr/bin:/app/bin
 modules:
   - name: openjdk
     buildsystem: simple
