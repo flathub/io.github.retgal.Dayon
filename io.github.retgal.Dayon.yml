@@ -3,19 +3,21 @@ runtime: org.freedesktop.Platform
 runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk11
+  - org.freedesktop.Sdk.Extension.openjdk21
 command: dayon_assisted.sh
 finish-args:
   - --share=ipc
   - --socket=x11
+  - --socket=wayland
   - --share=network
   - --filesystem=home
   - --filesystem=/tmp
+  - --env=PATH=/app/jre/bin:/app/bin:/usr/bin
 modules:
   - name: openjdk
     buildsystem: simple
     build-commands:
-      - /usr/lib/sdk/openjdk11/install.sh
+      - /usr/lib/sdk/openjdk21/install.sh
   - name: dayon
     buildsystem: simple
     build-commands:
@@ -32,8 +34,8 @@ modules:
       - install -Dm644 ${FLATPAK_ID}.appdata.xml -t ${FLATPAK_DEST}/share/appdata
     sources:
       - type: archive
-        url: https://github.com/RetGal/Dayon/releases/download/v14.0.1/dayon.14.0.1.tgz
-        sha256: 4b0bb08383dd1e15b7710ba17cfe79424d7d9c8fe82e6d50dfdc14bcea8c6506
+        url: https://github.com/RetGal/Dayon/releases/download/v14.0.2/dayon.14.0.2.tgz
+        sha256: d133752bd5472ff3c62e2f1200fa8e4b9135b17fff2e8dcabfc6f8f46188300c
       - type: file
         path: io.github.retgal.Dayon.appdata.xml
       - type: file
