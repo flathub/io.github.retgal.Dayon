@@ -32,6 +32,16 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="14.0.2" date="2024-06-08">
+            <description>
+                <p>Changes in Candid Clover II</p>
+                <ul>
+                    <li>Improved UPnP gateway discovery</li>
+                    <li>Improved chinese translation</li>
+                    <li>Use JRE21</li>
+                </ul>
+            </description>
+        </release>
         <release version="14.0.1" date="2024-05-23">
             <description>
                 <p>Changes in Candid Clover I</p>
