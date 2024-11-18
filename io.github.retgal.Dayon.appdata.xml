@@ -32,6 +32,16 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="15.0.0" date="2024-11-18">
+            <description>
+                <p>Changes in Dolly Double</p>
+                <ul>
+                    <li>Option to monitor in true colors</li>
+                    <li>Additional gray scales</li>
+                    <li>Improved UI responsiveness</li>
+                </ul>
+            </description>
+        </release>
         <release version="14.0.2" date="2024-06-08">
             <description>
                 <p>Changes in Candid Clover II</p>
