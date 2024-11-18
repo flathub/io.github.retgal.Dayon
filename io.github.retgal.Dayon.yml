@@ -33,8 +33,8 @@ modules:
       - install -Dm644 ${FLATPAK_ID}.appdata.xml -t ${FLATPAK_DEST}/share/appdata
     sources:
       - type: archive
-        url: https://github.com/RetGal/Dayon/releases/download/v14.0.2/dayon.14.0.2.tgz
-        sha256: d133752bd5472ff3c62e2f1200fa8e4b9135b17fff2e8dcabfc6f8f46188300c
+        url: https://github.com/RetGal/Dayon/releases/download/v15.0.0/dayon.15.0.0.tgz
+        sha256: 328bc1986fe8c3d6f770b966983e76ec651e2420bcd624dc14c9a2bec02ec76e
       - type: file
         path: io.github.retgal.Dayon.appdata.xml
       - type: file
