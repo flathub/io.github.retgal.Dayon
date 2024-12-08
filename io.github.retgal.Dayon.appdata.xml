@@ -32,6 +32,16 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="15.0.1" date="2024-12-08">
+            <description>
+                <p>Changes in Dolly Double I</p>
+                <ul>
+                    <li>Adaptive capture intervall</li>
+                    <li>Performance improvements</li>
+                    <li>Fixed connection reset when switching between singel/multi screen sharing</li>
+                </ul>
+            </description>
+        </release>
         <release version="15.0.0" date="2024-11-18">
             <description>
                 <p>Changes in Dolly Double</p>
