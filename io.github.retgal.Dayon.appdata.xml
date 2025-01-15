@@ -32,6 +32,19 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="15.0.2" date="2025-01-15">
+            <description>
+                <p>Changes in Dolly Double II</p>
+                <ul>
+                    <li>Connection self-test</li>
+                    <li>Caps lock indicator</li>
+                    <li>Performance improvements</li>
+                    <li>Clear token on connection settings or token server change</li>
+                    <li>Fixed toggle keys behaviour after focus loss</li>
+                    <li>Improved french translation</li>
+                </ul>
+            </description>
+        </release>
         <release version="15.0.1" date="2024-12-08">
             <description>
                 <p>Changes in Dolly Double I</p>
