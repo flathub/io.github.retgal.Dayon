@@ -32,6 +32,14 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="16.0.0" date="2025-02-11">
+            <description>
+                <p>Changes in Eager Eagle</p>
+                <ul>
+                    <li>Ability to invert the connection establishment in case the assistant is not reachable</li>
+                </ul>
+            </description>
+        </release>
         <release version="15.0.2" date="2025-01-15">
             <description>
                 <p>Changes in Dolly Double II</p>
