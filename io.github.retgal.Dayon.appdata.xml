@@ -32,6 +32,16 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="16.0.1" date="2025-02-17">
+            <description>
+                <p>Changes in Eager Eagle I</p>
+                <ul>
+                    <li>Enhanced ability to invert the connection establishment in case the assistant is not reachable</li>
+                    <li>Automatic connection to the assistants private address if both sides are behind same firewall</li>
+                    <li>Improved integration for non-Gnome desktops</li>
+                </ul>
+            </description>
+        </release>
         <release version="16.0.0" date="2025-02-11">
             <description>
                 <p>Changes in Eager Eagle</p>
