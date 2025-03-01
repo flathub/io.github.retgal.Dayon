@@ -32,6 +32,17 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="16.0.2" date="2025-03-01">
+            <description>
+                <p>Changes in Eager Eagle II</p>
+                <ul>
+                    <li>Detect and warn about wayland session</li>
+                    <li>Fix clipboard file transfer towards assistant</li>
+                    <li>Update assisted status bar when connected</li>
+                    <li>Reflect yaml preconfiguration in UI</li>
+                </ul>
+            </description>
+        </release>
         <release version="16.0.1" date="2025-02-17">
             <description>
                 <p>Changes in Eager Eagle I</p>
