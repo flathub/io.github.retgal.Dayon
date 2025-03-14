@@ -32,6 +32,15 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="16.0.3" date="2025-03-4">
+            <description>
+                <p>Changes in Eager Eagle III</p>
+                <ul>
+                    <li>Fix reverted connection</li>
+                    <li>Various bug fixes and improvements</li>
+                </ul>
+            </description>
+        </release>
         <release version="16.0.2" date="2025-03-01">
             <description>
                 <p>Changes in Eager Eagle II</p>
