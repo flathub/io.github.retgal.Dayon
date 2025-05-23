@@ -42,7 +42,7 @@
                     <li>Auto hide the assistants cursor</li>
                     <li>Auto add DISPLAY environment variable</li>
                     <li>Preserve session settings after disconnect</li>
-                    <li> Various improvements and fixes</li>
+                    <li>Various improvements and fixes</li>
                 </ul>
             </description>
         </release>
