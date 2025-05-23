@@ -34,7 +34,7 @@ modules:
     sources:
       - type: archive
         url: https://github.com/RetGal/Dayon/releases/download/v17.0.0/dayon.17.0.0.tgz
-        sha256: 6b2976447db8a36d45608437f4771c0061bb74eadfbecc5ef025ea8e757b7edc
+        sha256: 2a50b4a39d1ec59f7899a6e860a487120d38e91819296af12cb735f33eaec40c
       - type: file
         path: io.github.retgal.Dayon.appdata.xml
       - type: file
