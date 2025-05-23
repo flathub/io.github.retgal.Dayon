@@ -32,7 +32,21 @@
         </screenshot>
     </screenshots>
     <releases>
-        <release version="16.0.3" date="2025-03-4">
+        <release version="17.0.0" date="2025-05-23">
+            <description>
+                <p>Changes in Furry Flamingo</p>
+                <ul>
+                    <li>User selectable interface to be included in token</li>
+                    <li>Auto reconnect after connection drops</li>
+                    <li>Auto accept option</li>
+                    <li>Auto hide the assistants cursor</li>
+                    <li>Auto add DISPLAY environment variable</li>
+                    <li>Preserve session settings after disconnect</li>
+                    <li>Various improvements and fixes</li>
+                </ul>
+            </description>
+        </release>
+        <release version="16.0.3" date="2025-03-04">
             <description>
                 <p>Changes in Eager Eagle III</p>
                 <ul>
