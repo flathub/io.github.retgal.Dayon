@@ -1,6 +1,6 @@
 app-id: io.github.retgal.Dayon
 runtime: org.freedesktop.Platform
-runtime-version: '25.08'
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk21
@@ -32,8 +32,8 @@ modules:
       - install -Dm644 ${FLATPAK_ID}.appdata.xml -t ${FLATPAK_DEST}/share/appdata
     sources:
       - type: archive
-        url: https://github.com/RetGal/Dayon/releases/download/v18.0.1/dayon.18.0.1.tgz
-        sha256: 69dd804cdc6845e3e594c5bc1f7926d5909a3b8a1546470f163688ef1ec6deaa
+        url: https://github.com/RetGal/Dayon/releases/download/v18.0.2/dayon.18.0.2.tgz
+        sha256: a96bafddc9e8eb57fc508cd46a3ab11f1cff2576950d85e04e31d01afbf59e72
       - type: file
         path: io.github.retgal.Dayon.appdata.xml
       - type: file
