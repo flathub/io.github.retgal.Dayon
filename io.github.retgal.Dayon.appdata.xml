@@ -32,6 +32,14 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="18.0.21" date="2026-09-08">
+            <description>
+                <p>Changes in Gusty Goblin II</p>
+                <ul>
+                    <li>Fixes regression bug causing transmission of a black screen after connection</li>
+                </ul>
+            </description>
+        </release>
         <release version="18.0.1" date="2026-09-03">
             <description>
                 <p>Changes in Gusty Goblin I</p>
