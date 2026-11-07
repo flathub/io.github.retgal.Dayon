@@ -34,6 +34,7 @@ modules:
       - type: archive
         url: https://github.com/RetGal/Dayon/releases/download/v19.0.0/dayon.19.0.0.tgz
         sha256: 80c192790a534b34a4053f3a436e7414e486492904eb7ff74375d5faf88e7e28
+      - type: file
         path: io.github.retgal.Dayon.appdata.xml
       - type: file
         dest-filename: dayon.flathub.png
